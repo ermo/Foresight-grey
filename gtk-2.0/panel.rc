@@ -1,0 +1,37 @@
+##########
+# PANELS #
+##########
+
+# Note: Uncommenting means to delete the "#" at the beginning of a line. Commenting out means to add a "#" at the beginning of a line.
+# The "#" tells the theme whether to ignore the line or not.
+
+style "panel"
+{
+
+# The following line adds a gradient panel background. Delete or comment it out to have regular, flat gnome-panels.
+bg_pixmap[NORMAL]			= "/Panels/panel-bg.png"
+
+}
+
+# Panel settings. Do not change.
+widget "*PanelWidget*"			style "panel"
+widget "*PanelApplet*"			style "panel"
+widget "*fast-user-switch*"		style "panel"
+widget "*CPUFreq*Applet*"		style "panel"
+widget "*indicator-applet*"		style "panel"
+class "PanelApp*"			style "panel"
+class "PanelToplevel*"			style "panel"
+widget_class "*PanelToplevel*"		style "panel"
+widget_class "*Mail*"			style "panel"
+#class "*Panel*"			style "panel" # Disabled to fix bug.
+widget_class "*notif*"			style "panel"
+widget_class "*Notif*"			style "panel"
+widget_class "*Tray*"			style "panel" 
+widget_class "*tray*"			style "panel"
+widget_class "*Applet*Tomboy*"		style "panel"
+widget_class "*Applet*Netstatus*"	style "panel"
+
+# XFCE panel theming.
+widget "*Xfce*Panel*"			style "panel"
+class "*Xfce*Panel*"			style "panel"
+
