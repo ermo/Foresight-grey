@@ -68,6 +68,8 @@ style "default"
 	GtkTreeView::vertical-separator = 0
 	GtkWidget::link-color = @link_color
 	GtkWidget::new-tooltip-style = 1
+	GtkWindow::resize-grip-height = 14
+ 	GtkWindow::resize-grip-width = 14
 	WnckTasklist::fade-overlay-rect = 0
 	
 	#####################
@@ -244,7 +246,6 @@ style "progressbar"
 		gradient_shades	= { 1.1, 0.9, 0.9, 0.8 }
 		roundness			= 4
 	}
-
 }
 
 style "statusbar"

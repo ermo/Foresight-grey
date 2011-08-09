@@ -11,6 +11,10 @@ style "panel"
 # The following line adds a gradient panel background. Delete or comment it out to have regular, flat gnome-panels.
 bg_pixmap[NORMAL]			= "/Panels/panel-bg.png"
 
+## We really want to avoid having resize targets in panels. *Ahem*
+GtkWindow::resize-grip-height 		= 0
+GtkWindow::resize-grip-width 		= 0
+
 }
 
 # Panel settings. Do not change.
